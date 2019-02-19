@@ -1,6 +1,6 @@
 # ek_mobile
 
-> eeejian.com
+> mobile.songshuing.com
 
 ## Build Setup
 
