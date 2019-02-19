@@ -1,0 +1,47 @@
+<template>
+  <div class="com_pane">
+    <div class="com_pane_title">
+      <h1><i class="git"></i>造型盆景<a href="#">更多</a></h1>
+    </div>
+    <div class="com_goods_list">
+      <ul>
+        <li
+          v-for="(item,index) in goodsList"
+          :key="index"
+        ><a href="#">
+            <img
+              :src="item.img"
+              art="造型盆景"
+            />
+          </a></li>
+      </ul>
+    </div>
+  </div>
+</template>
+<script>
+import goodsResponse from "../../src/data/goods.json";
+export default {
+  data() {
+    return {
+      goodsList: []
+    };
+  },
+  created() {
+    this.fetchData();
+  },
+  methods: {
+    fetchData() {
+      let goodsData = goodsResponse.goods;
+      let goodsArray = [];
+      goodsData.forEach(function(element, index) {
+        if (element.type == "02") goodsArray.push(element);
+      });
+      this.goodsList = goodsArray;
+    }
+  }
+};
+</script>
+<style lang="less" scoped>
+@import url("../assets/less/index.less");
+</style>
+

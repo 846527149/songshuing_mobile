@@ -1,0 +1,14 @@
+{
+  "goods":[
+    {"code":"0001","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0002","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0003","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0004","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0005","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0006","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
+    {"code":"0007","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
+    {"code":"0008","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
+    {"code":"0009","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
+    {"code":"0010","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"}
+  ]
+}

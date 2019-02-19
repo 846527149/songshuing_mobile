@@ -4,10 +4,12 @@ import Vue from 'vue'
 import Index from './view/index'
 import router from './router'
 import { XButton } from 'vux'
+import axios from 'axios'
 import 'lib-flexible/flexible.js'
 import '@/assets/less/base.less' // global css
 Vue.config.productionTip = false
-Vue.component('x-button', XButton)
+Vue.prototype.$http=axios
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
