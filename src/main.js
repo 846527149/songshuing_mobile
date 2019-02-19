@@ -5,6 +5,7 @@ import Index from './view/index'
 import router from './router'
 import { XButton } from 'vux'
 import 'lib-flexible/flexible.js'
+import '@/assets/less/base.less' // global css
 Vue.config.productionTip = false
 Vue.component('x-button', XButton)
 /* eslint-disable no-new */
