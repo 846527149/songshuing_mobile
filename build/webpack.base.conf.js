@@ -5,7 +5,7 @@ const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 const vuxLoader = require('vux-loader')
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -20,17 +20,20 @@ const createLintingRule = () => ({
   }
 })
 
-var  originalConfig  = {
+var originalConfig = {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js'
   },
+  externals: {
+    "BMap": "BMap"
+  },
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
-    publicPath: process.env.NODE_ENV === 'production'
-      ? config.build.assetsPublicPath
-      : config.dev.assetsPublicPath
+    publicPath: process.env.NODE_ENV === 'production' ?
+      config.build.assetsPublicPath :
+      config.dev.assetsPublicPath
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
@@ -93,7 +96,9 @@ var  originalConfig  = {
 }
 const webpackConfig = originalConfig
 module.exports = vuxLoader.merge(webpackConfig, {
-  plugins: [{name:'vux-ui'}, {
+  plugins: [{
+    name: 'vux-ui'
+  }, {
     name: 'less-theme',
     path: 'src/assets/less/theme.less' /**对于wux 的定制 */
   }]

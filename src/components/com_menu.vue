@@ -15,12 +15,12 @@ export default {
     return {
       menuData: [
         { title: "网站首页", link: "/", class: "menu-item current-menu-item" },
-        { title: "公司介绍", link: "about", class: "menu-item" },
-        { title: "造型松树", link: "goods_zxs", class: "menu-item" },
-        { title: "造型盆景", link: "goods_pj", class: "menu-item" },
-        { title: "新闻动态", link: "news", class: "menu-item" },
-        { title: "工程案例", link: "goods_zxs", class: "menu-item" },
-        { title: "联系我们", link: "contact", class: "menu-item" }
+        { title: "公司介绍", link: "/about", class: "menu-item" },
+        { title: "景观松树", link: "/goods", class: "menu-item" },
+        { title: "造型盆景", link: "/goods", class: "menu-item" },
+        { title: "新闻动态", link: "/news", class: "menu-item" },
+        { title: "工程案例", link: "/goods", class: "menu-item" },
+        { title: "联系我们", link: "/contact", class: "menu-item" }
       ]
     };
   }

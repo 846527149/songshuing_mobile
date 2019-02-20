@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <com_logo />
-    <com_menu />
-    <com_banner />
-    <com_goods_js />
-    <com_goods_pj />
-    <com_news />
-    <com_contact />
+  <div class="index">
+    <com_logo/>
+    <com_menu/>
+    <com_banner/>
+    <com_goods_js/>
+    <com_goods_pj/>
+    <com_news/>
+    <com_contact/>
+    <com_tabmenu/>
+    <com_footer/>
   </div>
 </template>
 
@@ -18,6 +20,9 @@ import com_goods_js from "../components/com_goods_js";
 import com_goods_pj from "../components/com_goods_pj";
 import com_news from "../components/com_news";
 import com_contact from "../components/com_contact";
+import com_tabmenu from "../components/com_tabmenu";
+import com_footer from "../components/com_footer";
+
 
 export default {
   name: "index",
@@ -28,8 +33,15 @@ export default {
     com_goods_js,
     com_goods_pj,
     com_news,
-    com_contact
+    com_contact,
+    com_tabmenu,
+    com_footer
   }
 };
 </script>
+<style lang="less" scoped>
+.index {
+  margin-bottom: 60px;
+}
+</style>
 
