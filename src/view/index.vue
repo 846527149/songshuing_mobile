@@ -40,8 +40,6 @@ export default {
 };
 </script>
 <style lang="less" scoped>
-.index {
-  margin-bottom: 60px;
-}
+@import url("../assets/less/index.less");
 </style>
 

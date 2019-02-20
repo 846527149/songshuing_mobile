@@ -8,12 +8,14 @@
         <li
           v-for="(item,index) in goodsList"
           :key="index"
-        ><a href="#">
+        >
+          <router-link :to="{ path: item.url, query: { code: item.code}}">
             <img
               :src="item.img"
               art="景观松树"
             />
-          </a></li>
+          </router-link>
+        </li>
       </ul>
     </div>
   </div>

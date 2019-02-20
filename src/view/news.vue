@@ -11,7 +11,7 @@
       <div class="com_news_list">
         <ul>
           <li v-for="(item,index) in newsList" :key="index">
-            <a href="#">{{item.title}}</a>
+            <router-link :to="{ path: item.url, query: { code: item.code}}">{{item.title}}</router-link>
           </li>
         </ul>
       </div>

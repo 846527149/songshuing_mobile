@@ -8,9 +8,11 @@
         <li
           v-for="(item,index) in newsList"
           :key="index"
-        ><a href="#">
-           {{item.title}}
-          </a></li>
+        >
+          <router-link :to="{ path: item.url, query: { code: item.code}}">
+            {{item.title}}
+          </router-link>
+        </li>
       </ul>
     </div>
   </div>

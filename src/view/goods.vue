@@ -11,9 +11,9 @@
       <div class="com_goods_list">
         <ul>
           <li v-for="(item,index) in goodsList" :key="index">
-            <a href="#">
+             <router-link :to="{ path: item.url, query: { code: item.code}}">
               <img :src="item.img" art="景观松树">
-            </a>
+             </router-link>
           </li>
         </ul>
       </div>

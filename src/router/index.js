@@ -4,7 +4,9 @@ import index from '@/view/index'
 import about from '@/view/about'
 import news from '@/view/news'
 import goods from '@/view/goods'
+import goods_detail from '@/view/goods_detail'
 import contact from '@/view/contact'
+import news_detail from '@/view/news_detail'
 
 Vue.use(Router)
 
@@ -13,8 +15,7 @@ export default new Router({
   scrollBehavior: () => ({
     y: 0
   }),
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'index',
       component: index,
@@ -28,6 +29,14 @@ export default new Router({
       component: goods,
       meta: {
         title: '精品松树'
+      }
+    },
+    {
+      path: '/goods_detail',
+      name: 'goods_detail',
+      component: goods_detail,
+      meta: {
+        title: '景松展示'
       }
     },
     {
@@ -47,11 +56,26 @@ export default new Router({
       }
     },
     {
+      path: '/news_detail',
+      name: 'news_detail',
+      component: news_detail,
+      meta: {
+        title: '新闻展示'
+      }
+    },
+    {
       path: '/contact',
       name: 'contact',
       component: contact,
       meta: {
         title: '联系我们'
+      }
+    },
+    {
+      path: '*',
+      component: index,
+      meta: {
+        title: '景海园林'
       }
     }
   ]
