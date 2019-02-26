@@ -5,11 +5,13 @@ import App from './app'
 import router from './router'
 import VueWechatTitle from 'vue-wechat-title'
 import axios from 'axios'
+import VueLazyLoad from 'vue-lazyload'
 import 'lib-flexible/flexible.js'
 import '@/assets/less/base.less' // global css
 Vue.config.productionTip = false
 Vue.prototype.$http=axios
 Vue.use(VueWechatTitle)
+Vue.use(VueLazyLoad)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

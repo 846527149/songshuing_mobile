@@ -11,7 +11,7 @@
         >
           <router-link :to="{ path: item.url, query: { code: item.code}}">
             <img
-              :src="item.img"
+              v-lazy="item.img"
               art="景观松树"
             />
           </router-link>

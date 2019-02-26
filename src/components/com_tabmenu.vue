@@ -3,57 +3,33 @@
     <div class="com_tabmenu">
       <ul>
         <li>
-          <a
-            href="tel:13206349983"
-            title="拨打电话"
-          >
+          <a href="tel:13206349983" title="拨打电话">
             <em>
-              <img
-                src="/static/images/phone.png"
-                class="loaded"
-              >
+              <img src="/static/images/phone.png" class="loaded">
             </em>
             拨打电话
           </a>
         </li>
         <li>
-          <router-link
-            to="goods"
-            title="景观松树"
-          >
+          <router-link to="goods" title="景观松树">
             <em>
-              <img
-                src="/static/images/menu.png"
-                class="loaded"
-              >
+              <img src="/static/images/menu.png" class="loaded">
             </em>
             景观盆景
           </router-link>
         </li>
         <li>
-          <router-link
-            to="goods"
-            title="造型盆景"
-          >
+          <router-link to="goodspj" title="造型盆景">
             <em>
-              <img
-                src="/static/images/menu.png"
-                class="loaded"
-              >
+              <img src="/static/images/menu.png" class="loaded">
             </em>
             造型松树
           </router-link>
         </li>
         <li>
-          <router-link
-            to="contact"
-            title="联系我们"
-          >
+          <router-link to="contact" title="联系我们">
             <em>
-              <img
-                src="/static/images/contact.png"
-                class="loaded"
-              >
+              <img src="/static/images/contact.png" class="loaded">
             </em>
             联系我们
           </router-link>

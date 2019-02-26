@@ -4,7 +4,7 @@
     <com_menu/>
     <com_banner/>
     <div class="goods_bg">
-      <div class="part-pane-title">精品松树
+      <div class="part-pane-title">精品盆景
         <br>
         <span></span>
       </div>
@@ -12,7 +12,7 @@
         <ul>
           <li v-for="(item,index) in goodsList" :key="index">
             <router-link :to="{ path: item.url, query: { code: item.code}}">
-              <img v-lazy="item.img" art="景观松树">
+              <img v-lazy="item.img" art="精品盆景">
             </router-link>
           </li>
         </ul>
@@ -57,7 +57,9 @@ export default {
       let goodsData = goodsResponse.goods;
       let goodsArray = [];
       goodsData.forEach(function(element, index) {
-         goodsArray.push(element);
+        if ("02" == element.type) {
+          goodsArray.push(element);
+        }
       });
       this.goodsList = goodsArray;
     }

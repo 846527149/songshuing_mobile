@@ -1,14 +1,22 @@
 {
   "goods":[
-    {"code":"0001","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0002","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0003","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0004","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0005","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0006","img":"/static/images/goods.jpg","url":"goods_detail","type":"01"},
-    {"code":"0007","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
-    {"code":"0008","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
-    {"code":"0009","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"},
-    {"code":"0010","img":"/static/images/goods2.jpg","url":"goods_detail","type":"02"}
+    {"code":"0001","img":"/static/images/zxs001.jpg","url":"goods_detail","type":"01"},
+    {"code":"0002","img":"/static/images/zxs002.jpg","url":"goods_detail","type":"01"},
+    {"code":"0003","img":"/static/images/zxs003.jpg","url":"goods_detail","type":"01"},
+    {"code":"0004","img":"/static/images/zxs004.jpg","url":"goods_detail","type":"01"},
+    {"code":"0005","img":"/static/images/zxs005.jpg","url":"goods_detail","type":"01"},
+    {"code":"0006","img":"/static/images/zxs006.jpg","url":"goods_detail","type":"01"},
+    {"code":"0007","img":"/static/images/zxs007.jpg","url":"goods_detail","type":"01"},
+    {"code":"0008","img":"/static/images/zxs008.jpg","url":"goods_detail","type":"01"},
+    {"code":"0009","img":"/static/images/zxs009.jpg","url":"goods_detail","type":"01"},
+    {"code":"0010","img":"/static/images/zxs010.jpg","url":"goods_detail","type":"01"},
+    {"code":"0011","img":"/static/images/pj001.jpg","url":"goods_detail","type":"02"},
+    {"code":"0012","img":"/static/images/pj002.jpg","url":"goods_detail","type":"02"},
+    {"code":"0013","img":"/static/images/pj003.jpg","url":"goods_detail","type":"02"},
+    {"code":"0014","img":"/static/images/pj004.jpg","url":"goods_detail","type":"02"},
+    {"code":"0015","img":"/static/images/pj005.jpg","url":"goods_detail","type":"02"},
+    {"code":"0016","img":"/static/images/pj006.jpg","url":"goods_detail","type":"02"},
+    {"code":"0017","img":"/static/images/pj007.jpg","url":"goods_detail","type":"02"},
+    {"code":"0018","img":"/static/images/pj008.jpg","url":"goods_detail","type":"02"}
   ]
 }
