@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       bannerList: [
-        { img: "./static/images/banner_01.jpg" },
+        { img: "./static/images/banner_mobile_1.jpg" },
         { img: "./static/images/banner_02.jpg" },
         { img: "./static/images/banner_03.jpg" }
       ]
