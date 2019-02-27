@@ -10,7 +10,7 @@ import contact from '@/view/contact'
 import news_detail from '@/view/news_detail'
 
 Vue.use(Router)
-var COMMON_TITLE="--山东景海园林造型松树基地提供优质造型松树，造型松，黑松，油松，景观松，泰山松。选购电话：13206349983"
+var COMMON_TITLE="景海园林-油松_黑松_盆景_景观松+全国最大造型松基地"
 export default new Router({
   mode: 'history', //后端支持可开
   scrollBehavior: () => ({
@@ -21,7 +21,7 @@ export default new Router({
       name: 'index',
       component: index,
       meta: {
-        title: '首页'+COMMON_TITLE
+        title: COMMON_TITLE
       }
     },
     {
@@ -29,7 +29,7 @@ export default new Router({
       name: 'goods',
       component: goods,
       meta: {
-        title: '精品松树'+COMMON_TITLE
+        title: '精品松树--'+COMMON_TITLE
       }
     },
     {
@@ -37,7 +37,7 @@ export default new Router({
       name: 'goodspj',
       component: goodspj,
       meta: {
-        title: '精品盆景'+COMMON_TITLE
+        title: '精品盆景--'+COMMON_TITLE
       }
     },
     {
@@ -45,7 +45,7 @@ export default new Router({
       name: 'goods_detail',
       component: goods_detail,
       meta: {
-        title: '景松展示'+COMMON_TITLE
+        title: '景松展示--'+COMMON_TITLE
       }
     },
     {
@@ -53,7 +53,7 @@ export default new Router({
       name: 'about',
       component: about,
       meta: {
-        title: '关于我们'+COMMON_TITLE
+        title: '关于我们--'+COMMON_TITLE
       }
     },
     {
@@ -61,7 +61,7 @@ export default new Router({
       name: 'news',
       component: news,
       meta: {
-        title: '新闻动态'+COMMON_TITLE
+        title: '新闻动态--'+COMMON_TITLE
       }
     },
     {
@@ -69,7 +69,7 @@ export default new Router({
       name: 'news_detail',
       component: news_detail,
       meta: {
-        title: '新闻展示'+COMMON_TITLE
+        title: '新闻展示--'+COMMON_TITLE
       }
     },
     {
@@ -77,14 +77,14 @@ export default new Router({
       name: 'contact',
       component: contact,
       meta: {
-        title: '联系我们'+COMMON_TITLE
+        title: '联系我们--'+COMMON_TITLE
       }
     },
     {
       path: '*',
       component: index,
       meta: {
-        title: '景海园林'+COMMON_TITLE
+        title: COMMON_TITLE
       }
     }
   ]

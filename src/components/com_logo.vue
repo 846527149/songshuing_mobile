@@ -1,6 +1,6 @@
 <template>
   <div class="com_logo">
-    <img src="static/images/com_logo.jpg" art>
+    <img src="http://media.songshuing.com/com_logo.jpg" art>
   </div>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="com_banner" >
-    <swiper :list="bannerList" :show-desc-mask="false" :aspect-ratio="400/900"></swiper>
+    <swiper :list="bannerList" :show-desc-mask="false" height="160px"></swiper>
   </div>
 </template>
 <script>
@@ -12,8 +12,8 @@ export default {
   data() {
     return {
       bannerList: [
-        { img: "./static/images/banner_mobile_1.jpg" },
-        { img: "./static/images/banner_mobile_2.jpg" }
+        { img: "http://media.songshuing.com/banner_mobile_1.jpg" },
+        { img: "http://media.songshuing.com/banner_mobile_2.jpg" }
       ]
     };
   }
